@@ -11,6 +11,7 @@ import { PricingCalculator } from "@/components/PricingCalculator";
 import { Testimonials } from "@/components/Testimonials";
 import { Footer } from "@/components/Footer";
 import { InquiryModal } from "@/components/InquiryModal";
+import { ConsoleEasterEgg } from "@/components/ConsoleEasterEgg";
 import { Project } from "@/data/projects";
 
 export default function Home() {
@@ -30,6 +31,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#09090b] text-[#f4f4f5] selection:bg-[#f4f4f5] selection:text-[#09090b]">
+      {/* Developer Console Easter Egg for F12 */}
+      <ConsoleEasterEgg />
+
       {/* Navigation */}
       <Navbar onOpenInquiry={handleOpenInquiry} />
 
