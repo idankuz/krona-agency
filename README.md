@@ -5,24 +5,26 @@
 </p>
 
 <p align="center">
-  <strong>An award-winning digital atelier and creative engineering demo built with Next.js 14, TypeScript, and Tailwind CSS.</strong>
+  <strong>An award-winning digital atelier and creative engineering showcase built with Next.js 14, TypeScript, and Tailwind CSS.</strong><br />
+  <span>Crafted & Engineered by <a href="https://idankuz.dev"><strong>idankuz.dev</strong></a></span>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Author-idankuz.dev-emerald?style=for-the-badge" alt="Author" />
   <img src="https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js" alt="Next.js" />
   <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
 </p>
 
 ---
 
 ## ✦ Overview
 
-**KRONA Studio** is an ultra-high-polish, client-ready agency and portfolio showcase website. Designed with the aesthetics of leading digital studios (*Awwwards Site of the Year, Basic/Dept, Active Theory, Locomotive*), it demonstrates senior frontend architecture, modern motion aesthetics, and real-world commercial value.
+**KRONA Studio** is an ultra-high-polish, client-ready agency and portfolio showcase website created by **[idankuz.dev](https://idankuz.dev)**. Designed with the aesthetics of leading digital studios (*Awwwards Site of the Year, Basic/Dept, Active Theory, Locomotive*), it demonstrates senior frontend architecture, modern motion aesthetics, and real-world commercial value.
 
 ### Key Highlights
+- **Creator Attribution:** Seamlessly integrated badges and links pointing to [idankuz.dev](https://idankuz.dev).
 - **Obsidian Dark Aesthetic:** Refined `#09090b` palette with subtle ambient radial glow effects and typographic hierarchy.
 - **Interactive Project Case Studies:** Dynamic modal breakdown for each project detailing the challenge, engineering solution, verified business impact, and architecture stack.
 - **Infinite Client Marquee:** Smooth hardware-accelerated ticker showcasing prestigious partners.
@@ -39,10 +41,10 @@ krona-studio/
 ├── src/
 │   ├── app/
 │   │   ├── globals.css          # Custom scrollbars, marquee keyframes, radial glows
-│   │   ├── layout.tsx           # Geist typography, SEO OpenGraph metadata
+│   │   ├── layout.tsx           # Geist typography, SEO OpenGraph metadata, idankuz.dev
 │   │   └── page.tsx             # Root assembly with state orchestration
 │   ├── components/
-│   │   ├── Navbar.tsx           # Sticky blurred header, live timezone clock, mobile drawer
+│   │   ├── Navbar.tsx           # Sticky blurred header, idankuz.dev badge, live clock
 │   │   ├── Hero.tsx             # High-impact typography, metrics bar, showreel modal
 │   │   ├── ClientMarquee.tsx    # Infinite ticker marquee
 │   │   ├── WorksSection.tsx     # Filterable portfolio grid (All, Products, 3D, Systems)
@@ -51,7 +53,7 @@ krona-studio/
 │   │   ├── PricingCalculator.tsx# Interactive scope calculator
 │   │   ├── Testimonials.tsx     # Endorsements slider with client metrics
 │   │   ├── InquiryModal.tsx     # Multi-step project inquiry onboarding
-│   │   └── Footer.tsx           # Big typographic callout, global studio hubs
+│   │   └── Footer.tsx           # idankuz.dev credits, global studio hubs
 │   └── data/
 │       ├── projects.ts          # Mock case studies & performance data
 │       ├── services.ts          # Studio capabilities & tools
@@ -97,10 +99,9 @@ Deploy with one click to **Vercel**:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/)
 
-Or to **Netlify** / **Cloudflare Pages**.
-
 ---
 
-## ✦ License
+## ✦ Creator
 
-Distributed under the MIT License. Feel free to adapt this project for your personal portfolio and client work!
+Developed & Designed with passion by **[idankuz.dev](https://idankuz.dev)**.
+Distributed under the MIT License.

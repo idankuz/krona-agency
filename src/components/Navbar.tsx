@@ -18,7 +18,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
     };
     window.addEventListener("scroll", handleScroll);
 
-    // Update real-time clock for London/Studio
     const updateTime = () => {
       const now = new Date();
       const timeString = now.toLocaleTimeString("en-GB", {
@@ -46,15 +45,23 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
-        {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5 group">
-          <span className="font-extrabold text-2xl tracking-tighter text-white group-hover:text-zinc-300 transition-colors">
-            KRONA<span className="text-zinc-500 font-mono text-sm ml-0.5">™</span>
-          </span>
-          <span className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-mono uppercase tracking-widest text-zinc-400 bg-zinc-900/90 border border-zinc-800 rounded-full">
-            Studio
-          </span>
-        </a>
+        {/* Logo & Made By Badge */}
+        <div className="flex items-center gap-3">
+          <a href="#" className="flex items-center gap-2.5 group">
+            <span className="font-extrabold text-2xl tracking-tighter text-white group-hover:text-zinc-300 transition-colors">
+              KRONA<span className="text-zinc-500 font-mono text-sm ml-0.5">™</span>
+            </span>
+          </a>
+          <a
+            href="https://idankuz.dev"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-0.5 text-[11px] font-mono text-zinc-400 bg-zinc-900/90 border border-zinc-800 rounded-full hover:border-zinc-700 hover:text-white transition-colors"
+          >
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+            <span>by idankuz.dev</span>
+          </a>
+        </div>
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
@@ -95,6 +102,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
 
         {/* Mobile Hamburger Button */}
         <div className="flex items-center gap-3 md:hidden">
+          <a
+            href="https://idankuz.dev"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[10px] font-mono px-2 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-400"
+          >
+            by idankuz.dev
+          </a>
           <button
             onClick={onOpenInquiry}
             className="text-xs px-3 py-1.5 rounded-full bg-white text-zinc-950 font-semibold uppercase tracking-wider"
@@ -143,7 +158,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
             >
               Client Endorsements
             </a>
-            <div className="pt-4 border-t border-zinc-800">
+            <div className="pt-4 border-t border-zinc-800 flex flex-col gap-3">
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
@@ -153,6 +168,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
               >
                 Start a Project
               </button>
+              <a
+                href="https://idankuz.dev"
+                target="_blank"
+                rel="noreferrer"
+                className="w-full py-2.5 text-center text-xs font-mono text-zinc-400 hover:text-white transition-colors"
+              >
+                Portfolio: idankuz.dev ↗
+              </a>
             </div>
           </div>
         </div>
