@@ -98,7 +98,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenInquiry }) => {
               <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
                 Twitter / X ↗
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+              <a href="https://github.com/idankuz" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
                 GitHub ↗
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">

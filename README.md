@@ -70,7 +70,7 @@ krona-studio/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/krona-studio.git
+git clone https://github.com/idankuz/krona-studio.git
 cd krona-studio
 ```
 

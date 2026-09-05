@@ -26,14 +26,14 @@ export const ConsoleEasterEgg = () => {
     );
 
     console.log(
-      "%c✦ Welcome! This entire website is 100% open-source and crafted with precision by idankuz.",
+      "%c✦ Welcome! This entire website is 100% open-source and crafted with precision by @idankuz.",
       "font-size: 12px; color: #e4e4e7; font-weight: 500;"
     );
 
     console.log(
-      "%c✦ Official Portfolio: %chttps://idankuz.dev",
+      "%c✦ Official GitHub: %chttps://github.com/idankuz",
       "font-size: 12px; color: #a1a1aa;",
-      "font-size: 12px; color: #34d399; font-weight: bold; text-decoration: underline;"
+      "font-size: 12px; color: #38bdf8; font-weight: bold; text-decoration: underline;"
     );
 
     console.log(
@@ -52,8 +52,8 @@ export const ConsoleEasterEgg = () => {
     );
 
     console.log(
-      "%c✦ Want to hire or collaborate with Idan? Let's connect: https://idankuz.dev 🚀",
-      "font-size: 12px; font-weight: bold; color: #38bdf8; padding: 4px 0;"
+      "%c✦ Want to hire or collaborate with Idan? Check out: https://github.com/idankuz 🚀",
+      "font-size: 12px; font-weight: bold; color: #34d399; padding: 4px 0;"
     );
   }, []);
 
