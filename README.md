@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KRONA™ — Digital Agency & Creative Engineering Studio
 
-## Getting Started
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop" alt="KRONA Studio Banner" width="100%" style="border-radius: 12px;" />
+</p>
 
-First, run the development server:
+<p align="center">
+  <strong>An award-winning digital atelier and creative engineering demo built with Next.js 14, TypeScript, and Tailwind CSS.</strong>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+</p>
+
+---
+
+## ✦ Overview
+
+**KRONA Studio** is an ultra-high-polish, client-ready agency and portfolio showcase website. Designed with the aesthetics of leading digital studios (*Awwwards Site of the Year, Basic/Dept, Active Theory, Locomotive*), it demonstrates senior frontend architecture, modern motion aesthetics, and real-world commercial value.
+
+### Key Highlights
+- **Obsidian Dark Aesthetic:** Refined `#09090b` palette with subtle ambient radial glow effects and typographic hierarchy.
+- **Interactive Project Case Studies:** Dynamic modal breakdown for each project detailing the challenge, engineering solution, verified business impact, and architecture stack.
+- **Infinite Client Marquee:** Smooth hardware-accelerated ticker showcasing prestigious partners.
+- **Interactive Scope & Pricing Calculator:** Real-time engagement model selector with dynamic timeline and investment calculations.
+- **Multi-Step Onboarding Flow:** 3-step interactive inquiry form with validation and animated confirmation.
+- **100% Responsive & Accessible:** Designed mobile-first with desktop keyboard shortcuts (`ESC` to dismiss modals).
+
+---
+
+## ✦ Project Structure
+
+```
+krona-studio/
+├── src/
+│   ├── app/
+│   │   ├── globals.css          # Custom scrollbars, marquee keyframes, radial glows
+│   │   ├── layout.tsx           # Geist typography, SEO OpenGraph metadata
+│   │   └── page.tsx             # Root assembly with state orchestration
+│   ├── components/
+│   │   ├── Navbar.tsx           # Sticky blurred header, live timezone clock, mobile drawer
+│   │   ├── Hero.tsx             # High-impact typography, metrics bar, showreel modal
+│   │   ├── ClientMarquee.tsx    # Infinite ticker marquee
+│   │   ├── WorksSection.tsx     # Filterable portfolio grid (All, Products, 3D, Systems)
+│   │   ├── ProjectModal.tsx     # Case study deep-dive slideover/modal
+│   │   ├── ServicesSection.tsx  # Capabilities accordion with deliverables & tech
+│   │   ├── PricingCalculator.tsx# Interactive scope calculator
+│   │   ├── Testimonials.tsx     # Endorsements slider with client metrics
+│   │   ├── InquiryModal.tsx     # Multi-step project inquiry onboarding
+│   │   └── Footer.tsx           # Big typographic callout, global studio hubs
+│   └── data/
+│       ├── projects.ts          # Mock case studies & performance data
+│       ├── services.ts          # Studio capabilities & tools
+│       └── testimonials.ts      # Client endorsements & verified outcomes
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✦ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
+- Node.js 18.17+ or 20+
+- npm, yarn, or pnpm
 
-## Learn More
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/krona-studio.git
+cd krona-studio
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2. Install dependencies
+```bash
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Run development server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4. Build for production
+```bash
+npm run build
+npm run start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✦ Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy with one click to **Vercel**:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/)
+
+Or to **Netlify** / **Cloudflare Pages**.
+
+---
+
+## ✦ License
+
+Distributed under the MIT License. Feel free to adapt this project for your personal portfolio and client work!
