@@ -1,7 +1,7 @@
 # KRONA™ — Digital Agency & Creative Engineering Studio
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop" alt="KRONA Studio Banner" width="100%" style="border-radius: 12px;" />
+  <img src="./public/banner.jpg" alt="KRONA Studio Banner" width="100%" style="border-radius: 12px;" />
 </p>
 
 <p align="center">
