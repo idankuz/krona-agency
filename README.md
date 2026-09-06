@@ -17,9 +17,17 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
 </p>
 
+<p align="center">
+  <a href="https://krona-agency-nextjs.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-krona--agency--nextjs.vercel.app-00DC82?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+
 ---
 
 ## ✦ Overview
+
+> 🌐 **Live Website:** [https://krona-agency-nextjs.vercel.app/](https://krona-agency-nextjs.vercel.app/)
 
 **KRONA Studio** is an ultra-high-polish, client-ready agency and portfolio showcase website created by **[idankuz.dev](https://idankuz.dev)**. Designed with the aesthetics of leading digital studios (*Awwwards Site of the Year, Basic/Dept, Active Theory, Locomotive*), it demonstrates senior frontend architecture, modern motion aesthetics, and real-world commercial value.
 

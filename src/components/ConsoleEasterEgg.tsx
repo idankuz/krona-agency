@@ -37,6 +37,12 @@ export const ConsoleEasterEgg = () => {
     );
 
     console.log(
+      "%c✦ Live Production: %chttps://krona-agency-nextjs.vercel.app",
+      "font-size: 12px; color: #a1a1aa;",
+      "font-size: 12px; color: #34d399; font-weight: bold; text-decoration: underline;"
+    );
+
+    console.log(
       "%c✦ Tech Stack: Next.js 14 App Router, TypeScript, Tailwind CSS, Lucide Icons, and zero bloat.",
       "font-size: 12px; color: #a1a1aa;"
     );
